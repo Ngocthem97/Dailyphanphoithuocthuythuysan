@@ -2,7 +2,7 @@
     <header class="header">
     <div class="grid">
       <nav class="header_navbar">
-        <ul class="header__navbar-list">
+        <!-- <ul class="header__navbar-list">
           <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng trên ứng dụng</li>
           <li class="header__navbar-item">
             <span class="header__navbar-item-no-pointer">Kết nối</span>
@@ -13,10 +13,14 @@
               <i class="header__navbar-icon fa-brands fa-youtube"></i>
             </a>
           </li>
-        </ul>
-        
+        </ul> -->
+        <!-- Lien he chung toi -->
         <ul class="header__navbar-list">
-          <li class="header__navbar-item">
+          <div class="header__navbar-contact">
+               <h1 class="header__navbar-contact-text">Liên hệ chúng tôi:</h1>
+              <h2 class="header__navbar-contact-number">0962189624</h2>
+          </div>
+          <!-- <li class="header__navbar-item">
             <a href="" class="header__navbar-item-link">
               Thông báo
               <i class="header__navbar-icon fa-solid fa-bell"></i>
@@ -29,7 +33,7 @@
             </a>
           </li>
           <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký tư vấn sản phẩm</li>
-          <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+          <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
         </ul>
       </nav>
       
@@ -51,23 +55,24 @@
           <i class="header__cart-icon fa-sharp fa-solid fa-cart-shopping"></i>
         </div>
       </div>
-
+      <ul class="header__menu">
+        <li class="header__menu-funtion">
+           <router-link to="/" class="header__menu-funtion-home">
+               Home
+           </router-link>
+        </li>
+         <li class="header__menu-funtion">
+             <router-link to="/products" class="header__menu-funtion-products">
+                Sản phẩm
+             </router-link>
+         </li>
+         <li class="header__menu-funtion">
+              <router-link to="/about" class="header__menu-funtion-about">
+               About
+             </router-link>
+         </li>
+      </ul>
     </div>
-    <li class="header__navbar-item">
-        <router-link to="/" class="header__navbar-item-link">
-            Home
-        </router-link>
-    </li>
-    <li class="header__navbar-item">
-        <router-link to="/products" class="header__navbar-item-link">
-            Sản phẩm
-        </router-link>
-    </li>
-    <li class="header__navbar-item">
-        <router-link to="/about" class="header__navbar-item-link">
-            About
-        </router-link>
-    </li>
   </header>
   </template>
   
