@@ -88,9 +88,10 @@ body {
   --white-color:#fff;    /*khoi tao bien */
   --black-color: #000;
   --text-color: #333;
-  --header-height: 130px;
-  --navbar-height: 23px;
-  --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+  --header-height: 170px;
+  --navbar-height: 33px;
+  --header-with-search-height: 107px;
+  --header-menu: calc(var(--header-height) - var(--navbar-height)- var(--header-with-search-height));
 }
 
 *{
