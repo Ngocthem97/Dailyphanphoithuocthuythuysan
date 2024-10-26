@@ -84,6 +84,21 @@ a,
   font-weight: 500;    /*in đậm phần đăng ký, đăng nhập */
 }
 
+/*Lien he chung toi*/
+.header__navbar-contact{
+  margin-left: 117rem;
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  color: var(--black-color);
+}
+
+.header__navbar-contact-text{
+  font-weight: 500;
+  color: red;
+  margin: 0 10px;
+}
+
 .header__navbar-item--separate::after{  /*dau gach doc ngan cach*/
   content: "";
   display: block;
@@ -126,12 +141,14 @@ a,
   text-align: center;
 }
 .Ten_dai_ly{
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: blue;
+  font-weight: 500;
 }
 .slogan{
-  font-size: 1.4rem;
-  color: rgb(96, 144, 25);
+  font-size: 1.5rem;
+  color: rgb(28, 29, 27);
+  font-weight: 500
 }
 
 /* ô tìm kiếm */
@@ -162,4 +179,16 @@ a,
   
   color: var(--white-color);
   font-size: 2.8rem;
+}
+.header__menu{
+  list-style: none;
+  width: 100%;
+  height: var(--header-menu);
+  display: flex;  /*cho cac item len cung 1 hang */
+  font-size: 1.4rem;      /*Kich thuoc font chu */
+  color: var(--black-color);  /* màu chữ */
+  background-color: #86a3fb;
+  text-decoration: none;      /* bỏ gạch chân */
+  font-weight: 300;           /* giảm độ dày của chữ */
+
 }
