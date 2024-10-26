@@ -106,7 +106,6 @@ a,
 
 .header__navbar-item-no-pointer{   /*bo bieu tuong ban tay khi tro vao*/
   cursor: text;
-  color: var(--white-color);
 }
 
 /* Tao phan tim kiem */

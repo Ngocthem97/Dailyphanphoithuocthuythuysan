@@ -35,7 +35,7 @@
       
       <div class="header-with-search">
         <div class="header__logo">
-          <img src="./assets/img/logo.png" alt="Logo" width="60" height="55">
+          <img src="../assets/img/logo.png" alt="Logo" width="60" height="55">
         </div>
 
         <div class="intro">
