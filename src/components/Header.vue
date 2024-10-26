@@ -57,18 +57,18 @@
       </div>
       <ul class="header__menu">
         <li class="header__menu-funtion">
-           <router-link to="/" class="header__menu-funtion-home">
-               Home
+           <router-link to="/" class="header__menu-funtion-spbanchay">
+               Sản phẩm bán chạy
            </router-link>
         </li>
          <li class="header__menu-funtion">
-             <router-link to="/products" class="header__menu-funtion-products">
-                Sản phẩm
+             <router-link to="/products" class="header__menu-funtion-dieutritom">
+                Điều trị tôm
              </router-link>
          </li>
          <li class="header__menu-funtion">
-              <router-link to="/about" class="header__menu-funtion-about">
-               About
+              <router-link to="/about" class="header__menu-funtion-dieutricá">
+               Điều trị cá
              </router-link>
          </li>
       </ul>
