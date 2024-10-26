@@ -183,12 +183,19 @@ a,
 .header__menu{
   list-style: none;
   width: 100%;
-  height: var(--header-menu);
+  height: 33;
   display: flex;  /*cho cac item len cung 1 hang */
-  font-size: 1.4rem;      /*Kich thuoc font chu */
+  font-size: 2rem;      /*Kich thuoc font chu */
   color: var(--black-color);  /* màu chữ */
   background-color: #86a3fb;
   text-decoration: none;      /* bỏ gạch chân */
   font-weight: 300;           /* giảm độ dày của chữ */
+  
+}
 
+.header__menu-funtion-spbanchay,
+.header__menu-funtion-dieutritom,
+.header__menu-funtion-dieutricá{
+
+  margin: 0 60px 0 0;
 }
