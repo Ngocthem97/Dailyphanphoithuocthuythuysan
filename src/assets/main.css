@@ -190,21 +190,20 @@ a,
   background-color: #86a3fb;
   text-decoration: none;      /* bỏ gạch chân */
   font-weight: 300;           /* giảm độ dày của chữ */
-  
+  padding-left: 60px;
 }
 
 .header__menu-funtion-spbanchay,
 .header__menu-funtion-dieutritom,
-.header__menu-funtion-dieutricá,
+.header__menu-funtion-dieutrica,
 .header__menu-funtion-knnuoitrong,
 .header__menu-vechungtoi{
 
-  margin: 0 60px 0 0;
+  margin: 0 70px 0 0;
 }
 
 .header__menu-contact-icon{
-    width: 150px;
-    text-align: center;
+  margin: 0 8px 0 60px;
 }
 .header__menu-contact-sdt{
   font-size: 2rem;
