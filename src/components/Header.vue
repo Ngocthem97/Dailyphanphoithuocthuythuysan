@@ -57,20 +57,35 @@
       </div>
       <ul class="header__menu">
         <li class="header__menu-funtion">
-           <router-link to="/" class="header__menu-funtion-spbanchay">
+           <router-link to="/spbanchay" class="header__menu-funtion-spbanchay">
                Sản phẩm bán chạy
            </router-link>
         </li>
          <li class="header__menu-funtion">
-             <router-link to="/products" class="header__menu-funtion-dieutritom">
+             <router-link to="/dieutritom" class="header__menu-funtion-dieutritom">
                 Điều trị tôm
              </router-link>
          </li>
          <li class="header__menu-funtion">
-              <router-link to="/about" class="header__menu-funtion-dieutricá">
+              <router-link to="/dieutrica" class="header__menu-funtion-dieutrica">
                Điều trị cá
              </router-link>
          </li>
+         <li class="header__menu-funtion">
+              <router-link to="/knnuoitrong" class="header__menu-funtion-knnuoitrong">
+               Kinh nghiệm nuôi trồng
+             </router-link>
+         </li>
+         <li class="header__menu-funtion">
+              <router-link to="/vechungtoi" class="header__menu-vechungtoi">
+               Về chúng tôi
+             </router-link>
+         </li>
+         <!--thong tin sdt tren menu-->
+        <!-- <div class="header__menu-contact-icon"> -->
+          <i class="fa-regular fa-phone"></i>
+        <!--</div> -->
+         <h1 class="header__menu-contact-sdt">0962189624</h1>
       </ul>
     </div>
   </header>
