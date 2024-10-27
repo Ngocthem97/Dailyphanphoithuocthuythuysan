@@ -82,9 +82,9 @@
              </router-link>
          </li>
          <!--thong tin sdt tren menu-->
-        <!-- <div class="header__menu-contact-icon"> -->
-          <i class="fa-regular fa-phone"></i>
-        <!--</div> -->
+          <div class="header__menu-contact-icon">
+            <i class="header__menu-contact-icon fa-solid fa-phone" ></i>
+          </div>
          <h1 class="header__menu-contact-sdt">0962189624</h1>
       </ul>
     </div>
