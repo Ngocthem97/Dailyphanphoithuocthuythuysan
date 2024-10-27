@@ -195,7 +195,17 @@ a,
 
 .header__menu-funtion-spbanchay,
 .header__menu-funtion-dieutritom,
-.header__menu-funtion-dieutricá{
+.header__menu-funtion-dieutricá,
+.header__menu-funtion-knnuoitrong,
+.header__menu-vechungtoi{
 
   margin: 0 60px 0 0;
+}
+
+.header__menu-contact-icon{
+    width: 150px;
+    text-align: center;
+}
+.header__menu-contact-sdt{
+  font-size: 2rem;
 }
