@@ -1,23 +1,33 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/spbanchay.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: HomeView
+      path: '/spbanchay',
+      name: 'spbanchay',
+      component: () => import('../views/spbanchay.vue')
     },
     {
-      path: '/products',
-      name: 'products',
-      component: () => import('../views/Product.vue')
+      path: '/dieutritom',
+      name: 'dieutritom',
+      component: () => import('../views/dieutritom.vue')
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
+      path: '/dieutrica',
+      name: 'dieutrica',
+      component: () => import('../views/dieutrica.vue')
+    },
+    {
+      path: '/knnuoitrong',
+      name: 'knnuoitrong',
+      component: () => import('../views/knnuoitrong.vue')
+    },
+    {
+      path: '/vechungtoi',
+      name: 'vechungtoi',
+      component: () => import('../views/vechungtoi.vue')
     },
   ]
 })
